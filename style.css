@@ -145,7 +145,12 @@ body, h1, h2, p, ul, li {
   
 
 /* CONTACT US */
-
+.contact{
+    color: rgb(33, 78, 96);
+    text-align: center;
+    margin: 5%;
+    background-color: aquamarine;
+  }
   .individualContact{
     display: flex;
     justify-content:space-around;
