@@ -1,3 +1,8 @@
+/* Home */
+
+.all{
+    background-color: rgb(227, 240, 236);
+}
 ul {
     display: flex;
     list-style-type: none;
@@ -8,7 +13,6 @@ ul {
   }
   
   li {
-    /* margin-top: 10px; */
     float: none;
   }
   
@@ -22,7 +26,6 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: white;
     
@@ -77,4 +80,22 @@ ul {
     margin-bottom: 300px;
   }
 
-  
+/* product */
+
+  .grid-content{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr; 
+     background-color: rgb(227, 240, 236);
+  }
+  .sheba{
+    color: black;
+    text-align: center;
+  }
+  .items{
+    text-align: center;
+    background-color: rgb(227, 240, 236);
+    color: rgb(33, 78, 96);
+  }
+  .items img{
+    width: 200px;
+  }
