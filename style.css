@@ -46,6 +46,11 @@ ul {
   }
 
 
+
+  
+
+
+
   .home{
     color: rgb(33, 78, 96);
     font-size: 30px;
@@ -98,4 +103,98 @@ ul {
   }
   .items img{
     width: 200px;
+  }
+
+
+  /* footer */
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-email,
+  .social-icons {
+    text-align: center;
+  }
+  .contact-email a {
+    color: #fff;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .social-icons img {
+    width: 30px; 
+    height: auto;
+  }
+  .social-icons a:hover img {
+    opacity: 0.8;
+  }
+  
+
+/* CONTACT US */
+
+  .individualContact{
+    display: flex;
+    justify-content:space-around;
+  }
+  .phone{
+    color: black;
+    font-size: 25px;
+    display: flex;
+  }
+  .email{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    
+  }
+  .address{
+    color: black;
+    font-size: 25px;
+    display: flex;
+  }
+
+
+
+  .message{
+    display: flex;
+    justify-content:space-around;
+  }
+  .message img{
+    width: 30%; 
+  }
+  #subjectBox{
+    margin-left: 30px;
+  }
+  #phoneBox{
+    margin-left: 41px;
+  }
+  #emailBox{
+    margin-left: 38px;
+  }
+  #messageBox{
+    margin-left: 19px;
+  }
+  .button{
+    color: red;
+    text-align: center;
+    align-items: center;
+  }
+  .blue {
+    color: blue;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
   }
