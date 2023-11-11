@@ -65,24 +65,34 @@ ul {
     margin-right: 50px;
   }
   .theme img{
-    margin-top: 150px;
+    margin-top: 30px;
     width: 45%;
   }
   .theme{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    margin-bottom: 300px;
   }
-  .theme2 img{
-    margin-top: 150px;
-    width: 52%;
+  .flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(227, 240, 236);
   }
-  .theme2{
+  .items{
+    text-align: center;
+    background-color: rgb(227, 240, 236);
+    color: rgb(33, 78, 96);
+  }
+  .items img{
+    width: 200px;
+  }
+  #almirah{
+    margin-bottom: -300px;
+  }
+  .statement{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    margin-bottom: 300px;
+    color: rgb(33, 78, 96);
   }
 
 /* product */
